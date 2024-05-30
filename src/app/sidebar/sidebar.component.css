@@ -1,0 +1,19 @@
+.sidebar-container {
+  width: fill;
+  height: 100%;
+  padding: 2rem;
+  border-left: 1px solid rgba(178, 178, 178, 0.306);
+  background-color: white;
+  z-index: 100;
+  color: rgb(93, 93, 93);
+}
+
+h2 {
+  font-weight: 300;
+  color: #987070;
+}
+
+h3 {
+  font-weight: 200;
+  color: #c39898;
+}

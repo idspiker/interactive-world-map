@@ -1,0 +1,12 @@
+header {
+  border-bottom: 1px solid rgba(178, 178, 178, 0.306);
+  padding-left: 2rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  color: #987070;
+  font-weight: 300;
+}
