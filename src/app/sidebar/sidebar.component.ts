@@ -14,4 +14,6 @@ export class SidebarComponent {
   @Input() capitalName = '';
   @Input() countryRegion = '';
   @Input() incomeLevel = '';
+  @Input() population = '';
+  @Input() gdp = '';
 }

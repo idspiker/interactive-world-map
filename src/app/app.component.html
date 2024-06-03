@@ -5,13 +5,15 @@
       <div class="map-container">
         <app-map-svg (countryClicked)="changeCountry($event)" />
       </div>
-      <span class="attribution">Map by simplemaps.com</span>
+      <span class="attribution">SVG by simplemaps.com</span>
     </div>
     <app-sidebar
       [countryName]="currentCountry"
-      capitalName="Washington DC"
-      countryRegion="North America"
-      incomeLevel="high"
+      [capitalName]="capital"
+      [countryRegion]="region"
+      [incomeLevel]="incomeLevel"
+      [population]="population"
+      [gdp]="gdp"
     />
   </section>
 </main>
