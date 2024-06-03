@@ -1,8 +1,12 @@
 <div class="sidebar-container">
+  @if (countryDataLoaded && populationDataLoaded && gdpDataLoaded) {
   <h2>{{ countryName }}</h2>
   <h3>Capitol - {{ capitalName }}</h3>
   <app-country-data-item itemKey="Region" [itemValue]="countryRegion" />
   <app-country-data-item itemKey="Income Level" [itemValue]="incomeLevel" />
   <app-country-data-item itemKey="Population" [itemValue]="population" />
-  <app-country-data-item itemKey="GDP" [itemValue]="gdp" />
+  <app-country-data-item itemKey="GDP (Constant 2015 US$)" [itemValue]="gdp" />
+  } @else {
+  <app-sidebar-loading />
+  }
 </div>

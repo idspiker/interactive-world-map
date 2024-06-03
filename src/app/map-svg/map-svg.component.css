@@ -1,3 +1,11 @@
 svg {
   z-index: 0;
 }
+
+.sm_state {
+  transition: fill 0.25s ease-in-out;
+}
+
+.sm_state:hover {
+  fill: #bb9898 !important;
+}

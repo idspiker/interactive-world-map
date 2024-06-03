@@ -1,0 +1,19 @@
+section {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.map-container {
+  width: 80vw;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.attribution {
+  color: rgba(145, 145, 145, 0.634);
+  padding-left: 2rem;
+  text-decoration: none;
+}

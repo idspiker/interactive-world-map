@@ -1,21 +1,5 @@
 <main>
   <app-header />
-  <section>
-    <div>
-      <div class="map-container">
-        <app-map-svg (countryClicked)="changeCountry($event)" />
-      </div>
-      <span class="attribution">SVG by simplemaps.com</span>
-    </div>
-    <app-sidebar
-      [countryName]="currentCountry"
-      [capitalName]="capital"
-      [countryRegion]="region"
-      [incomeLevel]="incomeLevel"
-      [population]="population"
-      [gdp]="gdp"
-    />
-  </section>
 </main>
 
 <router-outlet />
