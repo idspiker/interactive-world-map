@@ -8,6 +8,10 @@
   color: rgb(93, 93, 93);
 }
 
+.data-container {
+  height: 25.5rem;
+}
+
 h2 {
   font-weight: 300;
   color: #987070;

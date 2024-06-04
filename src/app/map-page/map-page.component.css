@@ -12,8 +12,6 @@ section {
   justify-content: center;
 }
 
-.attribution {
-  color: rgba(145, 145, 145, 0.634);
+.left-pad {
   padding-left: 2rem;
-  text-decoration: none;
 }
